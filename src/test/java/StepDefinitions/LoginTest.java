@@ -21,6 +21,8 @@ public class LoginTest {
 	  System.setProperty("webdriver.chrome.driver", "E:/Selenium/Selenium_Software/chromedriver.exe");
 	  driver=new ChromeDriver();
 	  driver.get("http://localhost:100");
+	  
+	  System.out.println("Hello Mr. Git");
 	  //LaunchApp();	
 	}
 
