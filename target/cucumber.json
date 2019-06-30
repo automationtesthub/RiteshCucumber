@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 19,
+        "name": "User should be login successfully with valid credentials",
+        "description": "",
+        "id": "valid-login-functionality;user-should-be-login-successfully-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5067213861,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should on login page",
+            "match": {
+              "location": "LoginTest.user_should_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1913462443,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter valid user id \"admin\" and valid password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 26
+                },
+                {
+                  "val": "admin",
+                  "offset": 53
+                }
+              ],
+              "location": "LoginTest.user_enter_valid_user_id_and_valid_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 865949,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User will be landed on home page",
+            "match": {
+              "location": "LoginTest.user_will_be_landed_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 582361333,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Logout link should be visible on home page",
+            "match": {
+              "location": "LoginTest.logout_link_should_be_visible_on_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1911929,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Run multiple time",
+            "match": {
+              "location": "LoginTest.run_multiple_time(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "TestData1",
+                  "TestData2"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "abc",
+                  "xyz"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "abc",
+                  "xyz"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Valid login functionality",
+    "description": "\r\n* url \u003d \"http://localhost:100\";",
+    "id": "valid-login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
